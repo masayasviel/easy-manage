@@ -1,0 +1,13 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "username": "docker",
+    "password": "docker",
+    "database": "my_database",
+    "entities": [
+        "dist/**/*.entity{.ts,.js}"
+    ],
+    "connectTimeout": 3000,
+    "synchronize": true
+}
